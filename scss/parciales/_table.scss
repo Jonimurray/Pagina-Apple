@@ -1,0 +1,26 @@
+.table {
+    text-align: left;
+    background-color: #fbfbfe;
+    border-style: solid;
+    border-width: 5px;
+    transition: transform 2s;
+}
+
+
+th, td {
+    border: solid 1px;
+    border-color: gray;
+    padding: 10px;
+}
+
+
+
+.form {
+    background-color: c;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.table:hover {
+    color: navy;
+}

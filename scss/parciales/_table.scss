@@ -1,9 +1,13 @@
 .table {
     text-align: left;
-    background-color: #fbfbfe;
+    background-color: $colorPrincipal;
     border-style: solid;
     border-width: 5px;
     transition: transform 2s;
+
+    .table:hover {
+        color: navy;
+    }
 }
 
 
@@ -21,6 +25,3 @@ th, td {
     padding-bottom: 1rem;
 }
 
-.table:hover {
-    color: navy;
-}

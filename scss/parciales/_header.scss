@@ -17,13 +17,15 @@ header {
 .logo {
     display: flex;
     align-items: center;
+
+    &__img {
+        height: 25px;
+        width: 25px;
+    }
+    
 }
 
 
-.logo__img {
-    height: 25px;
-    width: 25px;
-}
 
 
 .nav__list {

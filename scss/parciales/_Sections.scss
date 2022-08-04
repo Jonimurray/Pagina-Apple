@@ -6,7 +6,7 @@ main{
 
 .seccion1__titulo{
     text-align: center;
-    background-color: #fbfbfe;
+    background-color: $colorPrincipal;
     margin-bottom: 7rem; 
 }
 
@@ -46,12 +46,18 @@ main{
     margin-top: 3rem;
     width: 100%;
     min-height: 500px;
+
+    &__titulo {
+        text-align: center;
+        background-color: $colorPrincipal;
+        margin-bottom: 1px; 
+    }
 }
 
 
-.seccion3__titulo , .seccion11__titulo {
+.seccion11__titulo {
     text-align: center;
-    background-color: #fbfbfe;
+    background-color: $colorPrincipal;
     margin-bottom: 1px; 
 }
 
@@ -59,12 +65,11 @@ main{
 .seccion4 , .seccion12 {
     width: 100%;
     min-height: 200px;
-}
 
-
-.seccion4__fondo , .seccion12__fondo {
-    width: 100%;
-    height: 100%;
+    .seccion4__fondo , .seccion12__fondo {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 
@@ -78,31 +83,29 @@ main{
     margin-top: 3rem;
     width: 100%;
     min-height: 500px;
-}
 
-
-.seccion6__titulo {
-    text-align: center;
-    background-color: #fbfbfe;
-    margin-bottom: 1px;
+    &__titulo {
+        text-align: center;
+        background-color: $colorPrincipal;
+        margin-bottom: 1px;
+    }
 }
 
 
 .seccion7 {
     width: 100%;
     min-height: 200px;
-}
 
-
-.seccion7__img {
-    width: 100%;
-    height: 100%;
+    &__img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 
 .seccion8 {
     margin-top: 2rem;
-    background-color: #fbfbfe;
+    background-color: $colorPrincipal;
 }
 
 
@@ -110,13 +113,12 @@ main{
     margin-top: -19px;
     width: 100%;
     min-height: 500px;
-}
 
-
-.seccion9__titulo {
-    text-align: center;
-    background-color: #fbfbfe;
-    margin-bottom: 1px;
+    &__titulo {
+        text-align: center;
+        background-color: $colorPrincipal;
+        margin-bottom: 1px;
+    }
 }
 
 
@@ -124,14 +126,13 @@ main{
     width: 100%;
     min-height: 500px;
     margin-top: 3rem;
+
+    &__fondo {
+        width: 100%;
+        height: 100%;
+    }
+    
 }
-
-
-.seccion10__fondo {
-    width: 100%;
-    height: 100%;
-}
-
 
 .seccion11 {
     margin-top: 3rem;

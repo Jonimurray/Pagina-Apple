@@ -1,1 +1,17 @@
 $colorPrincipal: #fbfbfe;
+
+@for $colortexto from 1 through 5 {
+    .textcolor {
+        color: black;
+
+    }
+    
+}
+
+@each $degradados in black, gray, white {
+    .#{$degradados} {
+        color: $degradados;
+
+    }
+}
+

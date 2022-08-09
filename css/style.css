@@ -1,3 +1,35 @@
+.textcolor {
+  color: black;
+}
+
+.textcolor {
+  color: black;
+}
+
+.textcolor {
+  color: black;
+}
+
+.textcolor {
+  color: black;
+}
+
+.textcolor {
+  color: black;
+}
+
+.black {
+  color: black;
+}
+
+.gray {
+  color: gray;
+}
+
+.white {
+  color: white;
+}
+
 header {
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
@@ -10,7 +42,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 7px;
+  padding: 1px;
 }
 
 .logo {
@@ -33,7 +65,7 @@ header {
 
 .nav__item {
   margin-left: 1rem;
-  margin-top: 4px;
+  margin-top: 5px;
 }
 
 .derechos__parrafo {

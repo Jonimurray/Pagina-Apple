@@ -42,7 +42,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 1px;
+  padding: 2px;
 }
 
 .logo {
@@ -527,7 +527,7 @@ th, td {
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
-    margin-inline: 80p .tarjeta __4;
+    margin-inline: 80px .tarjeta __4;
     margin-inline-width: 190px;
     margin-inline-height: 190px;
     margin-inline-background-color: #fbfbfe;
